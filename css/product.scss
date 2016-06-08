@@ -1,0 +1,22 @@
+.product{
+	padding: 10px;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: justify;
+	ul {
+		padding-top: 20px;
+		padding-left: 10px;
+		margin-right: -20px;
+		li{
+			float: left;
+			margin-right: 30px;
+			margin-bottom: 20px;
+			width: 220px;
+			img{
+				padding: 7px;
+				border: 1px solid #ccc;
+			}
+		}
+	}
+	
+}
