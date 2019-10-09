@@ -61,11 +61,11 @@
 	margin-bottom: 30px;
 	.side{
 		float: left;
-		width: 180px;
+		width: 205px;
 		border: 1px solid #ccc;
 		color: #666;
 		padding:6px 6px 10px 6px;
-		margin-left: 10px;
+		margin-left: 0px;
 		.label{
 			font-weight: bold;
 		}
@@ -76,7 +76,11 @@
 		border: 1px solid #ccc;
 		color: #666;
 		padding:6px 6px 10px 6px;
-		margin-right: 10px;
+		margin-right: 0px;
+	}
+	.lightcolor{
+		color: red;
+		font-weight: bold;
 	}
 }
 .contact{
