@@ -1,41 +1,173 @@
-.product{
-	&-hd{
-		background: #ccc;
-		height: 30px;
-		line-height: 30px;
-		color: #333;
-		padding-left: 5px;
-		font-weight: bold;
+.iabout{
+	padding: 20px;
+	overflow: hidden;
+	.con{
+		float: left;
+    	width: 570px;
+    	font-size: 14px;
+    	p{
+    		margin-bottom: 20px;
+    	}
 	}
-	&-bd{
-		padding: 30px 10px;
-		td{
-			img{
-				border: 1px solid #ccc;
-				padding:2px;
-				margin: 3px;
-			}
+	
+    .pic{
+    	position: relative;
+    	float: right;
+    	width: 470px;
+    	height: 380px;
+    	img{
+    		display: block;
+    		position: absolute;
+    		top: 50%;
+    		left: 50%;
+    		margin-left: -150px;
+    		margin-top: -150px;
+    	}
+    }
+    .title{
+    	position: relative;
+    	&:before{
+    		content: "";
+		    position: absolute;
+		    left: 0;
+		    bottom: -20px;
+		    width: 100px;
+		    height: 4px;
+		    background: #eec100;
+    	}
+    }
+    .more{
+    	display: inline-block;
+	    padding-top: 24px;
+	    width: 46px;
+	    height: 22px;
+	    font-weight: bold;
+	    text-align: center;
+	    color: #01479d;
+	    border: 2px #01479d solid;
+	    transition: all .5s;
+	    &:hover{
+	    	background: #01479d;
+	    	color: #fff;
+	    }
+    }
+}
+.iproduct,.inew{
+	
+	height: 300px;
+	float: left;
+	.title{
+		margin-top: 50px;
+		margin-bottom: 30px;
+    	color: #01479d;
+	}
+}
+.iproduct{
+	width: 570px;
+	.con{
+		padding-top: 1px;
+		position: relative;
+	}
+	.info{
+		float: left;
+		width: 270px;
+	}
+	.pic{
+		width: 280px;
+		float: right;
+		position: relative;
+		overflow: hidden;
+		height: 280px;
+		margin-top: 9px;
+		li{}
+	}
+	.more{
+		position: absolute;
+		bottom: 10px;
+		right: 30px;
+	}
+	.preview,.next{
+		position: absolute;
+	    left: 0;
+	    bottom: 40px;
+	    width: 40px;
+	    height: 30px;
+	    line-height: 30px;
+	    text-align: center;
+	    font-size: 18px;
+	    border: 1px #01479d solid;
+	    color: #01479d;
+	    cursor: pointer;
+	    font-weight: bold;
+	    &:hover{
+	    	background:#01479d; color:#fff;
+	    }
+	}
+	.next{
+		left: 50px;
+	}
+}
+.inew{
+	width: 470px;
+	float: right;
+	position: relative;
+	.more{
+		position: absolute;
+		right: 0px;
+		top: 30px;
+	}
+	li{
+		display: block;
+	    width: 100%;
+	    color: #000;
+	    background: url(../images/dote.png) repeat-x left center;
+		margin-bottom: 5px;
+		height: 30px;
+		position: relative;
+		h4{
+			display: inline-block;
+    		background: #eee;
+    		font-weight: normal;
+    		line-height: 30px;
+    		padding-right: 3px;
+    		
+		}
+		span{
+			position: absolute;
+			right: 0;
+			top: 0;
+			display: block;
+			line-height: 30px;
+			background: #eee;
 		}
 	}
 }
-.info{
-	&-hd{
-		background: #ccc;
-		height: 30px;
-		line-height: 30px;
-		color: #333;
-		padding-left: 5px;
-		font-weight: bold;
+.iapply{
+	padding: 50px 0 80px;
+	.title{
+		text-align: center;
+		position: relative;
+		&:before{
+    		content: "";
+		    position: absolute;
+		    left: 50%;
+		    bottom: -10px;
+		    width: 50px;
+		    height: 4px;
+		    background: #eec100;
+		    margin-left: -25px;
+    	}
 	}
-	&-bd{
-		padding: 30px 10px;
-		// line-height: 18px;
-		font-size: 12px;
-		margin-bottom: 15px;
-		text-align: justify;
-		img{
-			float: right; 
-			margin-left: 10px;
+	.con{
+		margin-right: -20px;
+		li{
+			float: left;
+			width: 225px;
+			height: 148px;
+			overflow: hidden;
+			background: #ccc;
+			padding: 30px 2px;
+			margin-right: 2px;
 		}
 	}
 }
